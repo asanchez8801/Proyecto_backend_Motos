@@ -2,16 +2,17 @@ import { Schema, Types, model } from "mongoose";
 
 const esquemaMotos = new Schema(
 {
-    marca: {type: String, required: true},
-    modelo: {type: String, required: true},
-    cilindraje: {type: String, required: true},
-    torque: {type: String, required: true},
-    potencia: {type: String, required: true},
-    altura: {type: String, required: true},
-    seguridad: {type: String, required: true},
-    peso: {type: String, required: true},
-    tamanoRD: {type: String, required: true},
-    tamanoRT: {type: String, required: true},
+    Marca: {type: String, required: true},
+    Modelo: {type: String, required: true},
+    Cilindraje: {type: String, required: true},
+    Torque_HP: {type: Number, required: true},
+    Potencia_NM: {type: Number, required: true},
+    Altura_mm: {type: Number, required: true},
+    ABS: {type: Boolean, required: true},
+    StabiliTrak: {type: Boolean, required: true},
+    Peso_kg: {type: Number, required: true},
+    Rueda_Delantera: {type: String, required: true},
+    Rueda_Trasera: {type: String, required: true},
 })
 
 export default model("Motos", esquemaMotos);
