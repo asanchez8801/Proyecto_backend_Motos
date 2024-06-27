@@ -2,44 +2,48 @@
 
 ## Descripción
 
-En el siguiente proyecto backend realizamos un sistema CRUD para el almacenamiento de las referencias de motocicletas tipo Adventure Off road que predominan el mercado actual en colombia.
+En el siguiente proyecto fronted en Angular realizamos una página web para implementar la idea de negocio MotoTravels Colombia, en donde se crea una empresa dedicada a ofrecer tours en motocicleta dentro del territorio Colombiano, brindando un servicio VIP y Premium, donde se obtendrá la oportunidad de tener experiencias viajando en moto.
 
-## Desarollador
+## Desarolladores
 
-Jose Albeiro Sánchez Ibañez
+- Cristhian Venegas 
+- Albeiro Sánchez 
 
 ## Lista de procedimiento
 
 ### Herramientas de desarrollo usadas.
 
-- Node Js
+- Angular 
 - Express Js
-- Mongo DB
-- Mongoose
-- Morgan
-- DotEnv
-- Nodemon
+- Boostrap
+- Typescript
+- ngx-toastr
 
 ### Procedimiento
 
 - Crear Repositorio
-- Crear proyecto con Node.
-- Crear proyecto con Express
-- Crear Archivo gitignore
-- Crear BD en Mongo
-- Crear estructura de archivos
+- Crear proyecto con Angular
+- Instalación de Librerias (Express, Boostrap, Typescript, ngx-toastr)
+- Implementar Boostrap
+- Crear componentes
+- Crear rutas
+- Crear esctructuras en HTML
+- Crear estilos css
+- Crear lógica Typescript 
 - Crear variables de entorno
-- Conexion a base de datos
-- Crear enrutamientos
-- Crear controladores
-- Crear Modelos
+- Comprobación de responsive design 
+- Comprobación de diseño UX & UI 
 - Iniciar cargue de Información
 - Pruebas con postman
-- Comprobación de datos en Mongo Atlas
+- Comprobación de almcenamiento de datos en Mongo Atlas
 
-## Instrucciones de uso
+## Elemento de la página
 
-1. Iniciar Postman
+1. Inicio 
+
+![alt text](image.png)
+
+
 2. La ruta de dirección para envio de peticiones es: localhost:3000/motos
 3. Crear método Post para crear nuevo registro
 4. Crear método GET para leer un registro
